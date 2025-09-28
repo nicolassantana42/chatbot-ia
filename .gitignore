@@ -1,7 +1,19 @@
+# Python
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
+
+# Ambiente
 .env
+*.db  # Ignora chatbot.db para não expor interações
+
+# Logs e temporários (opcional, caso usem arquivos)
 logs/
-*.db  # Ignora banco de dados local
+*.log
+*.tmp
+
+# Outros
+.DS_Store
+.vscode/
+.idea/
