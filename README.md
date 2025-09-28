@@ -1,7 +1,7 @@
 # Chatbot-IA-OpenAI
 
 ## Nome do Projeto
-Chatbot-IA-OpenAI: Miniaplicação colaborativa que consome a OpenAI API para criar um chatbot simples de respostas inteligentes.
+Chatbot-IA-OpenAI: Um chatbot simples que usa a OpenAI API para gerar respostas inteligentes.
 
 ## Integrantes
 - Integrante 1: Seu Nome
@@ -13,17 +13,16 @@ Chatbot-IA-OpenAI: Miniaplicação colaborativa que consome a OpenAI API para cr
 - Integrante 7: Nome7
 
 ## API de IA Utilizada
-OpenAI API (modelo gpt-3.5-turbo) para geração de texto e respostas inteligentes.
+OpenAI API (modelo GPT-3.5-turbo) para geração de texto.
 
-## Explicação de Como Rodar/Testar o Projeto
+## Como Rodar/Testar o Projeto
 1. Clone o repositório: `git clone https://github.com/seu-usuario/chatbot-ia-openai.git`
 2. Instale dependências: `pip install -r requirements.txt`
-3. Copie config/.env.example para config/.env e adicione sua chave: `OPENAI_API_KEY=sua-chave-aqui` (obtenha em https://platform.openai.com/api-keys)
-4. Rode a aplicação: `python main.py`
-5. No console, digite mensagens (ex: "Olá, qual é o sentido da vida?"). O chatbot responde usando a OpenAI. Digite "sair" para encerrar.
-6. Interações são logadas em chatbot.db (use `sqlite3 chatbot.db "SELECT * FROM interactions;"` para visualizar logs).
+3. Crie um arquivo .env em /config com: `OPENAI_API_KEY=sua-chave-aqui`
+4. Rode: `python main.py`
+5. Digite mensagens no console; o chatbot responde e loga no BD (chatbot.db).
 
-Teste exemplo: Envie um prompt e veja a resposta exibida. Verifique os logs no banco de dados.
+Para testes: Envie prompts como "Olá, como vai?" e veja a resposta.
 
 ## Contribuições
-Cada integrante trabalhou em branch própria (ex: nome-aluno) e integrou via Pull Request. Veja histórico no GitHub.
+Cada integrante trabalhou em branch própria e merge via PR.
