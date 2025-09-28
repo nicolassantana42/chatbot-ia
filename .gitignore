@@ -3,17 +3,29 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
+*.pycache/
 
 # Ambiente
 .env
 *.db  # Ignora chatbot.db para não expor interações
 
-# Logs e temporários (opcional, caso usem arquivos)
+# Build e Distribuição
+dist/
+build/
+*.egg-info/
+
+# Logs e temporários
 logs/
 *.log
 *.tmp
+*.pid
+*.bak
+*.backup
 
 # Outros
 .DS_Store
 .vscode/
+.vscode/settings.json
 .idea/
+.idea/workspace.xml
+docs/_build/
