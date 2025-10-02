@@ -18,7 +18,6 @@ OpenAI API (modelo GPT-3.5-turbo) para geração de texto.
 ## Como Rodar/Testar o Projeto
 1. Clone o repositório: `git clone https://github.com/seu-usuario/chatbot-ia-openai.git`
 2. Instale dependências: `pip install -r requirements.txt`
-3. Crie um arquivo .env em /config com: `OPENAI_API_KEY=sua-chave-aqui`
 4. Rode: `python main.py`
 5. Digite mensagens no console; o chatbot responde e loga no BD (chatbot.db).
 
