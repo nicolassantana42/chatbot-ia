@@ -7,7 +7,7 @@ Chatbot-IA-OpenAI: Um chatbot simples que usa a OpenAI API para gerar respostas 
 - Integrante 1: Nicolas Santana RGM : 34971343
 - Integrante 2: Iago Lins De Santana: 42795656
 - Integrante 3: Nome3
-- Integrante 4: Nome4
+- Integrante 4: Agatha Santos Batista: 42800897
 - Integrante 5: Nome5
 - Integrante 6: Nome6
 - Integrante 7: Nome7
